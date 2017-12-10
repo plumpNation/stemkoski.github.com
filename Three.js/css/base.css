@@ -1,8 +1,12 @@
-body 
-{
-	font-family: Monospace;
-	font-weight: bold;
-	background-color: #ccccff;
-	margin: 0px;
-	overflow: hidden;
+body {
+    margin: 0;
+}
+
+main,
+canvas {
+    display: block;
+}
+
+.stats-js {
+	position: fixed;
 }
